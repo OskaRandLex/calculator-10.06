@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 200px;
+}
+
+.section {
+  width: 30%;
+  margin: 0 auto;
+  border: 3px solid black;
+}
+
+.section .text {
+  border-bottom: 2px solid black;
+  padding: 10px;
+  height: 30px;
+  width: 94%;
+}
+
+.section .btn {
+  background-color: silver;
+}
+
+.section .btn .btn-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+}
+
+.section .btn button {
+  width: 50px;
+  height: 50px;
+}
+/*# sourceMappingURL=main.css.map */
